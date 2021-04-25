@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={4d7d6a520004df223294756e935e5261}"/>-->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>      
+        <h1 class="display-5">Weather Dashboard</h1>
+    </header>
+    <main>
+        <div class="content search-block">
+            <div class="search col">
+            <p class="">Search for a City:
+            </p>
+              <form class="cityName"></form>
+              <input type="text" id="search" name="city" placeholder="Kansas City"><br><br>
+              <input class="" type="submit" value="Search">
+              <div class="cityHistory"></div>
+            </div>
+            <div class="container">
+            <div class="cityForcast col">
+                <h2 class="cityId">City Name:</h2>
+                <h2 class="date">Date:</h2>
+            </div>
+            <div>
+                <p class="temp">Temp:</p>
+            </div>
+            <div>
+                <p class="feelsLike">Feels Like:</p>
+            </div>
+            <div>
+                <p class="wind">Wind:</p>
+            </div>
+            <div>
+                <p class="humidity">Humidity:</p>
+            </div>
+
+        </div>
+        </div>
+    </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/dayjs@1.10.4/plugin/advancedFormat.js"></script>
+<script src="assets/script.js"></script>
+</html>
