@@ -33,7 +33,7 @@ header{
 
     border: black;
     border-style: solid;
-    background-color:blueviolet;
+    background-color: transparent;
     flex-direction: column;
     flex: 1 0 80%;
 }
@@ -44,7 +44,7 @@ header{
  
     }
 .cityForcast h2{
-    color: wheat;
+    color: black;
     
 }
 
